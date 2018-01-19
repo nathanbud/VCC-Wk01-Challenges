@@ -1,0 +1,71 @@
+*{padding:0px; margin: 0px;}
+
+
+.container{background-color: #edf7f9}
+
+.sub_con{width: 85%;
+height: auto;
+margin:auto;}
+
+.navi{background-color: hsla(0,0%,0%,0.8);
+	font-style: "Helvetica Neue";
+	position:fixed;
+	z-index: 1;
+	width: 100%}
+
+ul {padding:20px;
+ }
+
+li {display: inline;
+padding-left: 20px;
+font-family: Helvetica;
+color: #77d1f4;
+}
+
+a {text-decoration: none;}
+a:hover {color:white;}
+
+
+.header{height:70%;
+	width:100%;
+	background-image: url("img/dragonmain.jpg");
+background-size: cover;}
+
+.header_rcontent{float: left;width: 55%;
+				height:50%;
+				background-color: hsla(180,100%,50%,0.1);
+				position:relative;
+				box-sizing: border-box;
+				top:50%;
+
+}
+.header_lcontent{float: left;width: 30%;
+				height:50%;
+				background-color: hsla(0,0%,50%,0.9);
+				position:relative;
+				top:50%; 
+
+}
+
+ span {font-family: "Oxygen", sans-serif;
+		font-size: 50px;
+		padding:5%;
+		margin:10%;}
+
+.content{height:100%;
+ 	width:100%;
+ 	background-color:#353434;
+}
+
+p{font-family: Tahoma;
+font-size: 14px;
+margin:2%;
+color:white;
+}
+
+h1{
+	font-family: Tahoma;
+font-size: 14px;
+margin:2%;
+color:white;
+}

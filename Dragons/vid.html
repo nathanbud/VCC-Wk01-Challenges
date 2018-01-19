@@ -1,0 +1,84 @@
+
+
+<html>
+<head>
+<style>
+html,
+body,
+div,
+h1,
+p,
+a,
+video {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Oxygen", sans-serif;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+}
+
+
+.video {
+  position: fixed;
+  top: 50%; left: 50%;
+  z-index: 1;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+}
+
+.content {
+  position: relative;
+  top: 30%;
+  z-index: 2;
+  margin: 0 auto;
+  max-width: 720px;
+  text-align: center;
+}
+
+.content__heading {
+  margin-bottom: 24px;
+  color: rgb(39,39,39);
+  font-size: 44px;
+}
+
+.content__teaser {
+  margin-bottom: 24px;
+  color: rgb(89,89,89);
+  font-size: 22px;
+}
+
+content.button {
+  display: inline-block;
+  margin: 0;
+  padding: 12px 48px;
+  color: rgb(255,60,100);
+  font-size: 22px;
+  text-decoration: none;
+  border: solid 4px rgb(255,60,100);
+}
+
+</style>
+</head>
+<body>
+<div class="content">
+  <h1 class="content__heading">Welcome To My Production</h1>
+  <p class="content__teaser">Come and exercise for tomorrow we might get fat!</p>
+  <a href="#" class="content_button">Join Now!</a>
+</div>
+<video id="my-video" class="video" autoplay="autoplay" loop="loop" muted="" width="300" height="150">
+  <source src="we.mp4" type="video/mp4" />
+</video><!-- /video -->
+

@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {margin:0;
+	padding:0;
+	font-family: 'Roboto', sans-serif;
+}
+
+.clear{clear:both;}
+
+body{padding: 2%;
+background-color: #ffffff;}
+
+#header{
+	margin: 20px;
+	padding: 10px;
+	border-bottom: 1px solid #000000;
+}
+
+#logo {font-size: 40px }
+#logo img{
+	height: 40px;
+	width: auto;
+	border-right: 1px solid #000000;
+	margin-right: 10px;
+	padding-right: 10px;
+
+}
+
+#logo, #menu, #address, #copyright{
+	float: left;
+	width: 50%;
+}
+
+#menu{ text-align: right }
+
+#menu ul{
+	list-style: none;
+	
+}
+
+#menu ul li{
+display: inline-block;}
+
+#menu ul li a{text-decoration: none;
+	color: #0000ff;
+	padding: 10px;
+}
+
+#hero{
+	margin:30px 0px;
+}
+
+#hero img{width:100%;
+			height: auto;}
+
+
+
+.featured-image {float: left;
+				
+				width: 23%;
+				margin:0 2% 0 0; 
+				
+}
+
+.featured-image.last {margin:0 0 0 2%;
+	
+				
+}
+
+
+.featured-image img{width: 100%;
+					height: auto;}
+
+
+#copyright{ text-align: right }
+
+#footer{
+	margin: 10px;
+	padding: 10px;
+	border-top: 1px solid #000000;
+}
+
+
+
+
+
+
+
+
+
+
