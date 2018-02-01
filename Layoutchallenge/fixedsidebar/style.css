@@ -10,24 +10,29 @@
 body{padding: 0px;
 background-color: #ffffff;}
 
+span{font-size: 100%}
 #sub-container{width:70%;margin:0 5% 5% 5%;
 	float:right }
 
 #sidebar{width: 20%;
 		height: 100%;
 		position: fixed;
-		background-color: black;
+		background-color: rgba(1, 1, 1, 1);
 	float:left }
 
-	.sideimage {padding: 7.2%;
-				width:100%;
-				height:100%;}
+.forms{
+		width: 90%;
+		margin: auto;
+	}
 
-	.sideimage img{width:85%;
+.sideimage {padding:5%;
+				width:90%;
+				height:auto;}
+
+	.sideimage img{width:100%;
 				   height:auto;}
 
-	.sideimage p{padding: 7.2%;
-		color:#ffffff;}
+	
 
 #header{
 	margin: 40px;
@@ -61,7 +66,7 @@ background-color: #ffffff;}
 display: inline-block;}
 
 #menu ul li a{text-decoration: none;
-	color: #0000ff;
+	color: #ff0000;
 	padding: 10px;
 }
 
@@ -69,27 +74,30 @@ display: inline-block;}
 	margin:30px 0px;
 }
 
-#hero img{width:100%;
-			height: auto;}
+#hero img{
+	width:100%;
+	height: auto;}
 
 
-
-
-.featured-image {float: left;
-				width: 30%;
-				margin-top: 5%;			
+.featured-image {
+	float: left;
+	width: 30%;
+	margin-top: 5%;			
 }
 
-.featured-image.center {margin: 5% 5% 0 5%;
+.featured-image.center {
+	margin: 5% 5% 0 5%;
 }
 
-.featured-image img{width: 100%;
-					height: auto;}
+.featured-image img{
+	width: 100%;
+	height: auto;}
 
 
 
 
-#copyright{ text-align: right }
+#copyright{ 
+	text-align: right }
 
 #footer{
 	margin: 10px;
@@ -97,6 +105,91 @@ display: inline-block;}
 	border-top: 1px solid #000000;
 }
 
+
+
+
+
+
+@media(max-width:768px ){
+#sidebar{
+	width: 100%;
+	height: 20%;
+	position: fixed;
+	background-color: black;
+	}
+
+#sub-container{
+	width:90%;
+	margin:0 5% 0 5%;
+	margin-top: 22%;
+	}
+
+ #header{
+	margin: 0px;
+	padding: 0px;
+	border-bottom: 1px solid #000000;
+	}
+
+span{font-size: 70%;
+	}
+
+.sideimage {
+	padding:1%;
+	float: left;
+	width:20%;
+	height:auto;
+	}
+
+	.sideimage img{
+		width:70%;
+		height:auto;
+	}
+
+.featured-image {
+	width: 80%;
+	margin:auto;	
+}
+
+.featured-image.center {
+	margin: 0% 5% 0 0;
+	margin:auto;
+}	
+
+	.featured-image img{
+		width: 100%;
+		height: auto;
+	}
+
+.forms{
+	float:left;
+	width: 70%;
+	margin-top:5% ;
+	}
+
+}
+
+
+
+@media(max-width:400px ){
+#sidebar{width: 100%;
+		height: 10%;
+		position: fixed;
+		background-color: black;
+	 }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+}
 
 
 

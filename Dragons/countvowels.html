@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	function countVowels(mystring){
+		var counter = 0;	
+		var content ='';
+		var myvowel ='';
+		var input = mystring.toLowerCase().split('');
+ 		var vowel = ['a','e','i','o','u'];
+		
+		for(var i = 0; i < input.length; i++ ){
+			content = input[i];
+			myvowel = vowel[i];
+			console.log(content);
+			console.log(myvowel);
+			if(content == myvowel){
+				console.log("HAHA");
+			}
+			
+		}
+
+		//console.log(firstIndex);
+		//console.log(input);
+
+	return counter;
+		
+		}
+		
+countVowels('hghHEHEhe');
+
+
+</script>
+</body>
+</html>

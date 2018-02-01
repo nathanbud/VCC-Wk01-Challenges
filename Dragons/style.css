@@ -1,56 +1,51 @@
 *{padding:0px; margin: 0px;}
 
 
-.container{background-color: #edf7f9}
+.container{
+	background-color: #edf7f9}
 
-.sub_con{width: 85%;
-height: auto;
-margin:auto;}
+.sub_con{
+	width: 85%;
+	margin:auto;}
 
-.navi{background-color: hsla(0,0%,0%,0.8);
+.navi{
+	background-color: hsla(0,0%,0%,0.8);
 	font-style: "Helvetica Neue";
-	position:fixed;
-	z-index: 1;
-	width: 100%}
+	position: fixed;
+	width: 100%;
+	}
 
-ul {padding:20px;
+ul {padding:20px 0 20px 0;
+	margin-left: 7.5%;
+	box-sizing: border-box;
  }
 
-li {display: inline;
-padding-left: 20px;
-font-family: Helvetica;
-color: #77d1f4;
+li {
+	display: inline-block;
+	padding-right: 30px;
+	font-family: Helvetica;
+	color: #77d1f4;
 }
 
-a {text-decoration: none;}
+ul li a {text-decoration: none;}
 a:hover {color:white;}
 
 
-.header{height:70%;
+.header{
 	width:100%;
+	height: 500px;
 	background-image: url("img/dragonmain.jpg");
-background-size: cover;}
-
-.header_rcontent{float: left;width: 55%;
-				height:50%;
-				background-color: hsla(180,100%,50%,0.1);
-				position:relative;
-				box-sizing: border-box;
-				top:50%;
-
-}
-.header_lcontent{float: left;width: 30%;
-				height:50%;
-				background-color: hsla(0,0%,50%,0.9);
-				position:relative;
-				top:50%; 
-
+	background-size: cover;
 }
 
- span {font-family: "Oxygen", sans-serif;
+ .h{font-family: "Oxygen", sans-serif;
 		font-size: 50px;
-		padding:5%;
-		margin:10%;}
+		color:#ffffff;
+		display: inline;
+		padding: 500px 0 0 10px;
+		border:1px solid #eeeeee;
+
+		}
 
 .content{height:100%;
  	width:100%;
